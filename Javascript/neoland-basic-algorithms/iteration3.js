@@ -8,3 +8,11 @@ console.log(x / z);
 let a = 15;
 let b = 9;
 console.log(a % b);
+
+let p = 10;
+let j = 5;
+let o = p + j;
+
+let c = 10;
+let m = 5;
+let i = 10 * 5;
