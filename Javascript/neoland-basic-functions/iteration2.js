@@ -9,6 +9,5 @@ function largestWord(list) {
 
         }
     }
-}
 
 largestWord(avengers);
