@@ -1,17 +1,15 @@
-function largestWord(list) {
-    let minLength = 0;
-    let maxLength = 0;
-    let longestWord = [];
-    for (let i = 0; i < list.length; i++) {
-        if (list[i].length > minLength) {
-            minLength = list[i].length;
-        }  
-
-        }
-        console.log(minLength, maxLength);
-    }
-    
 const avengers = ['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.'];
 
+const findLongestWord = (array) => {
+    let maxLength = 0;
+    let wordLongest = "";
+    for (let i = 0; i < array.length; i++) {
+        if (array[i].length > maxLength) {
+            maxLength = array[i].length;
+            wordLongest = array[i];
+        }
+    }
+    return wordLongest;
+}
 
-largestWord(avengers);
+console.log(findLongestWord(avengers));
