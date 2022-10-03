@@ -1,0 +1,9 @@
+:root {
+    --rojo: #c92a2a;
+    --rosado: #a61e4d;
+    --blue: #364fc7;
+}
+
+.second {
+    border-bottom: 1px solid --rojo;
+}
