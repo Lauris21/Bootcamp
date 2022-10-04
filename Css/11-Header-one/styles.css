@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+.header  {
+    font-family: monospace;
+    background: #fa5252;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: #82c91e;
+    background: white;
+    padding: 4px 32px;
+    margin: 8px;
+
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+    padding: 0;
+    margin: 0;
+   
+   
+  }
+  
+  a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+
+  }
+
+ li {
+    justify-content: center;
+ }
+
+ @media screen and (max-width: 40rem){
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        height: 50vh;
+        
+    }
+    .logo {
+        order: 0;
+    }
+    .left-links {
+        flex-shrink: 0;
+    }
+    .rigth-links {
+        flex-shrink: 1;
+    }
+    ul {
+        flex-wrap: wrap;
+    }
+ }
+ 
