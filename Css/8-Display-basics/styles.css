@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+
+}
+body > div, body > p {
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-flex;
+}
+
+body > span, body >a {
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-flex;
+}
+
+body > div {
+    background-color: #e74c3c;
+}
+
+body > p {
+    background-color: #9b59b6;
+}
+
+body > span {
+    background-color: #3498db;
+}
+
+body > a {
+    background-color: #2ecc71;
+}
