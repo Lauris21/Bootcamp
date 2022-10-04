@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+button {
+    color: whitesmoke;
+    background-color: rgb(35, 127, 198);
+    border-radius: 8px;
+    width: 135px;
+    height: 50px;
+    transition: all 0.3s;
+    border: none;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
