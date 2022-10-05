@@ -1,3 +1,4 @@
+
 const citys = ['Japón', 'Nicaragua', 'Suiza', 'Australia', 'Venezuela'];
 const newUl = document.createElement("ul");
 document.body.appendChild(newUl);
@@ -28,17 +29,38 @@ const countries = [
 
 const listDiv = document.createElement("ul");
 document.body.appendChild(listDiv);
+countries.forEach(country => {
+    let randomList = `
+        <li class="listDiv">
+            <div class="box-div">
+                <h4>${country.title}</h4>
+                <img url="${country.imgUrl}" alt=${country.title} >
+            </div>
+            <button class="deleteme">Delete me</button>
+        </li>
+            `
+    listDiv.innerHTML += randomList;
+});
 
-for (const country of countries) {
-    let list = `<li></li>`;
-    listDiv.innerHTML += list;
-    const divH4 = `<div></div>`;
-    list.innerHTML += divH4;
-    for (const key in country) {
-        let title = `<h4>${country[key].title}</h4>`
-        divH4.innerHTML += title;
-        let img = `<img src= ${country[key].imgUrl}>`
-        divH4.innerHTML += img;
-    }
+let buttonDelete = document.createElement("button");
+document.body.appendChild(buttonDelete);
+buttonDelete.innerText = "Delete latest";
+
+
+const deleteLatest = () => {
+    let deleteDiv = document.querySelectorAll(".listDiv");
+    deleteDiv[deleteDiv.length-1].remove();
 }
+
+buttonDelete.addEventListener("click", deleteLatest);
+
+
+const indivButton = document.querySelectorAll(".deleteme");
+
+indivButton.forEach((button) => {
+    button.addEventListener("click", () =>{
+    button.parentNode.remove();
+    })
+});
+
 
