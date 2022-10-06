@@ -1,0 +1,87 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  max-width: 100vw;
+}
+
+body {
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/strangerthings-strangerthings4-2-01-11-46-20-1650451163.jpg?crop=0.49866666666666665xw:1xh;center,top&resize=640:*");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div #app {
+  display: block;
+  padding-top: 85px;
+  width: 100vw;
+  margin: 1rem;
+}
+h1{
+  text-align: center;
+} 
+h1 > img {
+  width: 70%;
+  height: 300px;
+}
+h2{
+  text-align: center;
+}
+header > p {
+  text-align: center;
+  margin-top: 4rem;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.element {
+  margin: 10rem;
+  width: 300px;
+  height: 450px;
+}
+.element > img {
+  width: 250px;
+  height: 280px;
+  border-radius: 8%;
+}
+.app > ul {
+  list-style-type: none;
+  width: 100vw;
+  margin: 5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+li > .element{
+  width: 325px;
+  height: 400px;
+  background-color: rgb(167, 165, 164);
+  gap: 3rem;
+}
+
+li > .buttons {
+  display: grid;
+  grid-row: 1;
+}
