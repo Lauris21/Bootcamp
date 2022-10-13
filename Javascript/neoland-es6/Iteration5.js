@@ -18,8 +18,19 @@ streamer.gameMorePlayed === "League of Legends");
 console.log(lol);
 
 const nameU = streamers.filter((streamer) =>
-streamer.name.includes("u"), streamer.age > 35 );
+streamer.name.includes("u"));
 console.log(nameU);
 
 const editStreamers = streamers.filter((streamer) => 
-gameMorePlayed.streamer.includes("Legends"))
+streamer.gameMorePlayed.includes("Legends"))
+console.log(editStreamers);
+for (const streamer of editStreamers) {
+	if(streamer.age > 35){
+		streamer.gameMorePlayed = streamer.gameMorePlayed.toUpperCase()
+	};
+};
+console.log(editStreamers)
+
+/*const input = document.querySelector("input");
+input.addEventListener("input", (ev) =>*/
+
