@@ -22,7 +22,7 @@ streamer.name.includes("u"));
 console.log(nameU);
 
 const editStreamers = streamers.filter((streamer) => 
-streamer.gameMorePlayed.includes("Legends"))
+streamer.gameMorePlayed.includes("Legends"));
 console.log(editStreamers);
 for (const streamer of editStreamers) {
 	if(streamer.age > 35){
