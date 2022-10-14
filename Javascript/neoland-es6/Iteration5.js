@@ -38,7 +38,7 @@ console.log(editStreamers)
 
 
 //5.6
-const filteredStreamer = (list, word) => {
+/*const filteredStreamer = (list, word) => {
 	const filstreamer = list.filter((item) => 
 	item.name.toLowerCase().includes(word.toLowerCase()));
 	return filstreamer;
@@ -47,6 +47,20 @@ const filterEvent = () => {
 	const input = document.querySelector("input");
 	input.addEventListener("input", (ev) => 
 	filteredStreamer(streamers, (ev.target.value)))
+}
+
+console.log(filterEvent)*/
+
+const eventBuscar =  () => {
+    const iniciar = document.querySelector("#toFilterStreamers");
+       iniciar.addEventListener("input", (event) => getStream(event.target.value.toLowerCase()));
+   }
+
+   eventBuscar()
+const getStream = (dato) => {
+const busca = streamers.filter(streame => streame.name.toLowerCase().includes(${dato}))
+eventBuscar()
+console.log(busca);
 }
 
 //5.7
