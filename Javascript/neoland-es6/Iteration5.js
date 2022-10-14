@@ -58,7 +58,7 @@ const eventBuscar =  () => {
 
    eventBuscar()
 const getStream = (dato) => {
-const busca = streamers.filter(streame => streame.name.toLowerCase().includes(${dato}))
+const busca = streamers.filter(streame => streame.name.toLowerCase().includes(`${dato}`))
 eventBuscar()
 console.log(busca);
 }

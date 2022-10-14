@@ -7,5 +7,10 @@ const videogames = [
     {name: 'Legend of Zelda: Breath of the wild', genders: ['RPG', 'La cosa más puto bonita que he visto nunca'], score: 10},
 ]
 
-const mediaRPG = videogames.filter((games) => games.genders.find((games) => games.genders.includes("RPG")));
-console.log(mediaRPG)
+
+const totalRPG = videogames.filter((games) => games.genders.includes("RPG"));
+    
+const mediaRPG = totalRPG.reduce((acc, games) => acc + games.score, 0);
+
+const mediaTotal = mediaRPG / totalRPG.length;
+console.log(mediaTotal)
