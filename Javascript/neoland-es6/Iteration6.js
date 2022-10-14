@@ -26,8 +26,7 @@ const mutations = [
 ];
 
 const cucusFind = aliens.find(alien => alien.name == "Cucushumushu");
-const poromFind = mutations.find(mutation => mutation.name == "Porompompero");
-const mutation = poromFind;
-const fusion = {...cucusFind, mutation};
+const theMuted = mutations.find(mutation => mutation.name == "Porompompero");
+const fusion = {...cucusFind, theMuted};
 console.log(fusion)
 
