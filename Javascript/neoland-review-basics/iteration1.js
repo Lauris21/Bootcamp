@@ -20,4 +20,4 @@ for (let i = 0; i < flatCategories.length; i++) {
     
 }
 
-console.log(newCategoriesMovies);
+console.log(categoriesMovies);
