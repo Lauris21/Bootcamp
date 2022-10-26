@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+h3, h4, p {
+  color:rgb(8, 102, 164);
+}
+header {
+  height: 20vh;
+}
+div > nav {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  height: 8vh;
+}
+
+nav > a {
+  color: bisque;
+}
+header > h1 {
+  text-align: center;
+  padding: 1.5rem;
+  color: #9b873c;
+}
+
+main > h3 {
+  color: #9b873c;
+}
+
+li > a > div >h2 {
+  color: #9b873c;
+}
+
+li > a > div > img {
+  width: 10rem;
+  height: 12rem;
+  place-self: center;
+  border-radius: 9%;
+}
+main > div > h2 {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  color: antiquewhite;
+}
+
+.divHome {
+  text-align: center;
+  margin-top: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  gap: 3rem;
+  justify-content: center;
+  
+}
+
+.image1 {
+  background-image: url("https://imagenes.elpais.com/resizer/NYJ04T2e3y5jKKwhsAMACeYpHO4=/414x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/K4QAJD5DN5DU5OMLUKOTGT736A.jpg");
+  background-size: cover;
+  height: 15rem;
+  width: 20rem;
+}
+
+.image2{
+  background-image: url("https://imagenes.elpais.com/resizer/NYJ04T2e3y5jKKwhsAMACeYpHO4=/414x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/K4QAJD5DN5DU5OMLUKOTGT736A.jpg");
+  background-size: cover;
+  height: 15rem;
+  width: 20rem;
+}
+
+.divHome > section {
+  display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main > div > ul {
+  display: grid;
+  gap: 2.5rem;
+  padding: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+ul > li > a > div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+main > h3 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+main > p {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.divCharacter {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.divCharacter > h2 {
+  color:#9b873c;
+}
+.divCharacter > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1.3rem;
+}
+
+.divCharacter > div > img {
+  width: 50%;
+  place-self: center;
+}
