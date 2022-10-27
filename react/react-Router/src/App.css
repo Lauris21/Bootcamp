@@ -103,6 +103,10 @@ ul > li > a > div {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
+  height: 370px;
+}
+ul > li > a > h2 {
+  text-align: center;
 }
 
 main > h3 {
@@ -137,4 +141,27 @@ main > p {
 .divCharacter > div > img {
   width: 50%;
   place-self: center;
+}
+
+.divCharacter > div > h3, h4, p {
+  color: bisque;
+
+}
+
+@media screen and (max-width: 706px) {
+    header > h1 {
+      font-size: revert;
+    }
+    main {
+      margin-top: -2.5rem;
+    }
+    main > div > ul {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    ul > li > a >h2 {
+      text-align: center;
+    }
+    div > nav {
+      margin-top: -1.5rem;
+    }
 }

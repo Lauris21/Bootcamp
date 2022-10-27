@@ -5,7 +5,7 @@ let characters = [
         genero: "Female",
         especie: "Human",
         grupo: "very light",
-        img: "https://static.wikia.nocookie.net/mario/images/0/0f/BabyDaisy.png/revision/latest?cb=20111211012626&path-prefix=es"
+        img: "https://i.pinimg.com/474x/af/f8/a0/aff8a0fcc3fc2a27b3e4518d3219f6fe--mario-baby.jpg"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ let characters = [
         genero: "Male",
         especie: "Human",
         grupo: "very light",
-        img: "https://static.wikia.nocookie.net/mario/images/3/35/Beb%C3%A9_Luigi.png/revision/latest/scale-to-width-down/638?cb=20110218153245&path-prefix=es"
+        img: "https://i.pinimg.com/originals/c8/4d/1f/c84d1f11741ee80b7bbda79a449917ab.png"
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ let characters = [
         genero: "Male",
         especie: "Human",
         grupo: "very light",
-        img: "https://static.wikia.nocookie.net/mario/images/e/e6/Beb%C3%A9_Mario_MSS.PNG/revision/latest?cb=20101123054153&path-prefix=es"
+        img: "https://i.pinimg.com/736x/82/a3/8b/82a38b5cf09c6cc2d7d287b68e2b6910.jpg"
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ let characters = [
         genero: "Female",
         especie: "Human",
         grupo: "very light",
-        img: "https://static.wikia.nocookie.net/mario/images/9/97/Beb%C3%A9_Peach.png/revision/latest?cb=20100914005605&path-prefix=es"
+        img: "https://i.pinimg.com/474x/e5/7e/83/e57e83c74e1b69685f12af39feb4aaf8.jpg"
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ let characters = [
         genero: "Male",
         especie: "Yoshi",
         grupo: "medium light",
-        img: "https://static.wikia.nocookie.net/mario/images/4/4d/Yoshi_-_Mario_Party_10.png/revision/latest/scale-to-width-down/653?cb=20171012174642&path-prefix=es"
+        img: "https://www.clarin.com/img/2022/10/23/el-yoshi-actual-foto-super___VrNvcIwkv_720x0__1.jpg"
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ let characters = [
         genero: "Male",
         especie: "Koopa",
         grupo: "very heavy",
-        img: "https://static.wikia.nocookie.net/mario/images/9/97/Bowser_Jr_Bowser%27s_Fury_artwork.png/revision/latest?cb=20210813135151&path-prefix=es"
+        img: "http://pm1.narvii.com/6446/06146cc96ae0b62c907411f5a1cd482f6d0fd1ac_00.jpg"
     },
     {
         id: 7,
@@ -53,7 +53,7 @@ let characters = [
         genero: "Male",
         especie: "Koopa",
         grupo: "heavy",
-        img: "https://static.wikia.nocookie.net/mario/images/f/f7/EA722DFB-D8BF-40B2-8D79-96DABF94CFB9.png/revision/latest/scale-to-width-down/699?cb=20200522144315&path-prefix=es",
+        img: "http://pm1.narvii.com/6968/fc60a7408e5a7cd7c74c6d4e5b56da0595f4fd84r1-720-869v2_uhq.jpg",
     },
     {
         id: 8,
@@ -61,7 +61,7 @@ let characters = [
         genero: "Male",
         especie: "Human",
         grupo: "medium",
-        img: "https://static.wikia.nocookie.net/mario/images/6/6d/Luigi.png/revision/latest?cb=20120428023844&path-prefix=es",
+        img: "https://www.nintenderos.com/wp-content/uploads/2009/08/luigi-nintendo.jpg",
     },
     {
         id: 9,
@@ -69,7 +69,7 @@ let characters = [
         genero: "Male",
         especie: "Gorila",
         grupo: "heavy light",
-        img: "https://static.wikia.nocookie.net/mario/images/a/a4/600px-DonkeyKong_SSBU.png/revision/latest?cb=20190521193955&path-prefix=es"
+        img: "https://www.dojoplay.it/wp-content/uploads/2015/05/Donkey_Kong.jpg"
     },
     {
         id: 10,
@@ -77,7 +77,7 @@ let characters = [
         genero: "Male",
         especie: "Human",
         grupo: "medium heavy",
-        img: "https://static.wikia.nocookie.net/mario/images/d/d7/SMO_Art_-_Mario.png/revision/latest/scale-to-width-down/700?cb=20170114200910&path-prefix=es"
+        img: "https://www.kissfm.es/wp-content/uploads/2022/03/mario-bros.jpg"
     },
     {
         id: 11,
@@ -85,7 +85,7 @@ let characters = [
         genero: "Female",
         especie: "Human",
         grupo: "medium light",
-        img: "https://static.wikia.nocookie.net/mario/images/2/2e/Daisy_Super_Mario_Party.png/revision/latest/scale-to-width-down/645?cb=20210409085933&path-prefix=es"
+        img: "https://i.pinimg.com/originals/d0/c1/c4/d0c1c4d2155031fd73fb3e6290cc654d.png"
     },
     {
         id: 12,
@@ -93,7 +93,7 @@ let characters = [
         genero: "Female",
         especie: "Human",
         grupo: "medium light",
-        img: "https://static.wikia.nocookie.net/mario/images/4/46/PeachMarioPartySuperstars.png/revision/latest?cb=20211209203004&path-prefix=es"
+        img: "https://i.pinimg.com/736x/99/79/61/997961bbb56052f93398ca815ec45f4a.jpg"
     },
     {
         id: 13,
@@ -101,15 +101,15 @@ let characters = [
         genero: "Male",
         especie: "Koopa",
         grupo: "very light",
-        img: "https://static.wikia.nocookie.net/mario/images/8/8e/HuesitosSMP.png/revision/latest/scale-to-width-down/699?cb=20200321161227&path-prefix=es"
+        img: "https://pbs.twimg.com/media/FRg2uNzWUAEByjb.jpg:large"
     },
     {
         id: 14,
         name: "Shy Guy",
         genero: "Male",
         especie: "Koopa",
-        grupos:"light",
-        img: "https://static.wikia.nocookie.net/mario/images/1/1d/Shy_Guy_Artwork.png/revision/latest/scale-to-width-down/700?cb=20220503165415&path-prefix=es"
+        grupos: "light",
+        img: "https://imagen.nextn.es/wp-content/uploads/2016/05/1605-09-Shy-Guy.jpg?strip=all&lossy=1&ssl=1"
     },
     {
         id: 15,
@@ -117,7 +117,7 @@ let characters = [
         genero: "Male",
         especie: "Toad",
         grupo: "light",
-        img: "https://static.wikia.nocookie.net/mario/images/2/2c/Toad_super_mario.png/revision/latest/scale-to-width-down/643?cb=20161129175624&path-prefix=es"
+        img: "https://media.vandalimg.com/common/1200x800/2014107135054.jpg"
     },
     {
         id: 16,
@@ -125,7 +125,7 @@ let characters = [
         genero: "Female",
         especie: "Toad",
         grupo: "light",
-        img: "https://static.wikia.nocookie.net/mario/images/0/0e/Toadette-0.png/revision/latest?cb=20190124142649&path-prefix=es"
+        img: "https://cdn.vox-cdn.com/thumbor/4crzBgRaelZaPl9I2fVLWKQk-IM=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22763363/toadette.jpg"
     },
     {
         id: 17,
@@ -133,7 +133,7 @@ let characters = [
         genero: "Male",
         especie: "Human",
         grupo: "heavy lights",
-        img: "https://static.wikia.nocookie.net/mario/images/3/3b/Waluigi_SMP.png/revision/latest/scale-to-width-down/700?cb=20220510155404&path-prefix=es"
+        img: "https://i.pinimg.com/originals/8f/a6/6d/8fa66d65def49b476dd0a0f168166033.png"
     },
     {
         id: 18,
@@ -141,7 +141,7 @@ let characters = [
         genero: "Male",
         especie: "Human",
         grupo: "heavy",
-        img: "https://static.wikia.nocookie.net/mario/images/3/3c/Wario_MP100.png/revision/latest/scale-to-width-down/700?cb=20171120161202&path-prefix=es"
+        img: "https://upload.wikimedia.org/wikipedia/ca/a/ac/Wario.jpg"
     },
     {
         id: 19,
@@ -149,7 +149,7 @@ let characters = [
         genero: "Female",
         especie: "Koopa",
         grupo: "light",
-        img: "https://static.wikia.nocookie.net/mario/images/c/c1/94C19BAB-5581-436A-AA49-81696A9CD8F0.png/revision/latest?cb=20200212213842&path-prefix=es"
+        img: "https://www.kindpng.com/picc/m/331-3319364_super-mario-bros-wendy-png-download-wendy-o.png"
     }
     
 ];

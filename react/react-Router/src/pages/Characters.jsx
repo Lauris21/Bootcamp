@@ -14,7 +14,7 @@ const Characters = () => {
         {characters.map((character) => (
         <li key={character.id}>
           <Link to={`/characters/${character.id}`}>
-            <CharacterDetail character={character} />
+            <h2>{character.name}</h2>
           </Link>
         </li>
       ))}
