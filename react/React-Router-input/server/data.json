@@ -34,6 +34,13 @@
       "image": "https://visagov-blog.nyc3.digitaloceanspaces.com/blog/2021/04/20210416090215-o.jpg",
       "description": "Pamukkale (castillo de algodón en turco) es una zona natural y al mismo tiempo una famosa atracción, causado por los movimientos tectónicos.",
       "id": "d78ebe62-1da1-4e4f-85cb-77e83da787bf"
+    },
+    {
+      "name": "Machu Picchu",
+      "ubication": "Perú",
+      "image": "http://c.files.bbci.co.uk/E02E/production/_102809375_machu.jpg",
+      "description": "Un misterioso santuario que se convirtió en la gran construcción de los incas y en un trabajo arquitectónico alucinante.",
+      "id": "b3f9c169-ea3d-4afc-be11-ace8313c5603"
     }
   ]
 }

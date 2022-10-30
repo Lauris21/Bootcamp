@@ -24,7 +24,7 @@ export const Places = () => {
       }, [])
 
     const createPlace = (ev) => {
-      ev.preventDefault();
+  
       const place = {
         name: name,
         ubication: ubication,
