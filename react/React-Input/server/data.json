@@ -6,6 +6,48 @@
       "image": "https://miaventuraviajando.com/wp-content/uploads/2019/11/gran-agujero-azul-belice-caye-caulker-san-pedro-mi-aventura-viajando-portada-1.jpg",
       "description": "Se encuentra cerca del centro del arrecife Lighthouse, un pequeño atolón ubicado a 100 kilómetros de la costa continental y la Ciudad de Belice.",
       "id": "31270dc8-5757-474f-bfbd-275ddc5c5bca"
+    },
+    {
+      "name": "Lagos de Plitvice",
+      "ubication": "Croacia",
+      "image": "https://www.lacroacia.es/images/plitvice2.jpg",
+      "description": "El Parque Nacional de los Lagos de Plitvice es una reserva forestal de 295 kilómetros cuadrados situada en el centro de Croacia. Es famoso por sus 16 lagos superpuestos en cadena y las cascadas que se extienden hasta un cañón de piedra caliza.",
+      "id": "1276175a-94b6-47f3-a7d8-5fd004da1e37"
+    },
+    {
+      "name": "Montañas de colores de Zhangye Danxia",
+      "ubication": "China",
+      "image": "https://img1.viajar.elperiodico.com/64/83/d0/danxia-montanas-multicolor-china-1201x846.jpg",
+      "description": "El Parque geológico nacional Zhangye Danxia es un parque nacional que se encuentra localizado en los condados Sunan y Linze de la ciudad-prefectura de Zhangye.",
+      "id": "95e330cf-31ed-4363-aba2-dbe685451068"
+    },
+    {
+      "name": "Cañón Bryce",
+      "ubication": "Utah, Estados Unidos",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/57/03.jpg",
+      "description": "Sus estructuras geológicas únicas, llamadas chimenea de hadas, que se formaron por la erosión causada por el viento, agua y hielo.",
+      "id": "8cf174f3-3a99-4e95-8a0f-54c12a4bc3c9"
+    },
+    {
+      "name": "La cascada blanca de Pamukkale",
+      "ubication": "Turquía",
+      "image": "https://visagov-blog.nyc3.digitaloceanspaces.com/blog/2021/04/20210416090215-o.jpg",
+      "description": "Pamukkale (castillo de algodón en turco) es una zona natural y al mismo tiempo una famosa atracción, causado por los movimientos tectónicos.",
+      "id": "9df8c017-64ae-4a50-9e9d-fb8f15c31a63"
+    },
+    {
+      "name": "Machu Picchu",
+      "ubication": "Perú",
+      "image": "http://c.files.bbci.co.uk/E02E/production/_102809375_machu.jpg",
+      "description": "Un misterioso santuario que se convirtió en la gran construcción de los incas y en un trabajo arquitectónico alucinante.",
+      "id": "da98a17d-dbaf-4bfd-9193-9479fadcaf09"
+    },
+    {
+      "name": "Mont Saint-Michel",
+      "ubication": "Francia",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mont-saint-michel-during-the-sunrise-royalty-free-image-1663588031.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "description": "Parece un castillo, pero en realidad es una abadía situado en lo alto de un islote rocoso que queda completamente aislado cuando sube la marea.",
+      "id": "e31a0dbb-a6b5-4b9e-bb87-5f439f444cc6"
     }
   ]
 }

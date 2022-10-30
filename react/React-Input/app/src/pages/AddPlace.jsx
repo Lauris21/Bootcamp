@@ -33,7 +33,7 @@ const AddPlace = () => {
 
     return (
         <div className="addPlace">
-            <h4>Hi 🤙🏽, in this form you can add the data to create a post with your favorite place 🌴.</h4>
+            <h2>Hi 🤙🏽, in this form you can add the data to create a post with your favorite place 🌴.</h2>
             <form onSubmit={(ev) => createPlace(ev)}>
                 <fieldset>
                     <legend>Add the data</legend>
@@ -75,7 +75,7 @@ const AddPlace = () => {
                 <h3>Preview</h3>
                 <figure>
                     <h4>{name}, {ubication}</h4>
-                    <img src={image} slt={name} />
+                    <img src={image} alt={name} />
                     <p>{description}</p>
                 </figure>
             </div>
