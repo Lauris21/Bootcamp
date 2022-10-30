@@ -1,5 +1,11 @@
 {
-    "placesAdd": [
-        
-    ]
+  "placesAdd": [
+    {
+      "name": "Gran agujero azul",
+      "ubication": "Belice",
+      "image": "https://miaventuraviajando.com/wp-content/uploads/2019/11/gran-agujero-azul-belice-caye-caulker-san-pedro-mi-aventura-viajando-portada-1.jpg",
+      "description": "Se encuentra cerca del centro del arrecife Lighthouse, un pequeño atolón ubicado a 100 kilómetros de la costa continental y la Ciudad de Belice.",
+      "id": "31270dc8-5757-474f-bfbd-275ddc5c5bca"
+    }
+  ]
 }

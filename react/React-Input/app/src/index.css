@@ -1,0 +1,66 @@
+
+:root {
+    background: #e4e4e4;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: Mythias;
+    src: url(./fonts/Mythias.otf);
+    font-display: block;
+}
+
+@font-face {
+    font-family: Comf;
+    src: url(./fonts/Comf.ttf);
+    font-display: block;
+}
+
+.App {
+    height: 100vh;
+}
+.header {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+    padding: 0 2rem;
+    justify-content: space-between;
+    background: rgb(123,52,203);
+background: linear-gradient(90deg, rgba(123,52,203,1) 0%, rgba(184,68,161,1) 50%, rgba(244,84,111,1) 100%);
+}
+.header > h1 {
+    font-family: Mythias, sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 0.7rem;
+    color: white;
+}
+
+.nav {
+    width: auto;
+}
+
+.nav > ul {
+    display: flex;
+    margin: auto;
+    height: 15vh;
+    gap: 4rem;
+}
+
+.nav > ul > li {
+    height: 15vh;
+}
+
+.nav > ul > li > a {
+    height: 15vh;
+    padding-top: 2rem;
+    color: white;
+}

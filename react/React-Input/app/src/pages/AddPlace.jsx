@@ -1,8 +1,9 @@
 import { useState } from "react";
+import axios from "axios"
+import { v4 as uuidv4 } from "uuid"
+import { Link } from "react-router-dom";
 
 const AddPlace = () => {
-
-    const [newPlace, setnewPlace] = useState({})
 
     const [name, setName] = useState("");
     const [ubication, setUbication] = useState("");
@@ -10,13 +11,24 @@ const AddPlace = () => {
     const [description, setDescription] = useState("");
 
     const createPlace = (ev) => {
-     let place = {
+     const place = {
             name: name,
             ubication: ubication,
             image: image,
             description: description,
-            id: uuid(),
+            id:uuidv4(),
         }
+        postPlace(place);
+        
+
+    }
+
+    const postPlace = async (item) => {
+        axios({
+            method: "post",
+            url: "http://localhost:8080/placesAdd",
+            data: item,
+        })
     }
 
     return (
@@ -29,21 +41,24 @@ const AddPlace = () => {
                             <label htmlFor="name">Name:</label>
                             <input type="text"
                              name="name"
-                             id="name" 
+                             id="name"
+                             required 
                              onChange={(ev) => setName(ev.target.value)}/>
                         </div>
                         <div>
                             <label htmlFor="name">Ubication:</label>
                             <input type="text"
                              name="ubication" 
-                             id="ubication" 
+                             id="ubication"
+                             required
                              onChange={(ev) => setUbication(ev.target.value)}/>
                         </div>
                         <div>
                             <label htmlFor="image">Image:</label>
                             <input type="text"
                              name="image" 
-                             id="image" 
+                             id="image"
+                             required
                              onChange={(ev) => setImage(ev.target.value)}/>
                         </div>
                         <div>
