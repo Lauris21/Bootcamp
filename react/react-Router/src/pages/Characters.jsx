@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom';
-import CharacterDetail from "../components/CharacterDetail"
 import { getCharacters } from "./../data/data.js"
 
 const Characters = () => {
