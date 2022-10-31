@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios"
 import { v4 as uuidv4 } from "uuid"
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const AddPlace = () => {
 
@@ -9,6 +9,8 @@ const AddPlace = () => {
     const [ubication, setUbication] = useState("");
     const [image, setImage] = useState("");
     const [description, setDescription] = useState("");
+
+    const navigate = useNavigate();
 
     const createPlace = (ev) => {
      const place = {
@@ -34,7 +36,11 @@ const AddPlace = () => {
     return (
         <div className="addPlace">
             <h2>Hi 🤙🏽, in this form you can add the data to create a post with your favorite place 🌴.</h2>
-            <form onSubmit={(ev) => createPlace(ev)}>
+            <form onSubmit={(ev) => {
+                createPlace(ev),
+                    navigate('/places');
+                
+                }}>
                 <fieldset>
                     <legend>Add the data</legend>
                         <div>
