@@ -13,6 +13,10 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   height: 15vh;
 }
@@ -24,6 +28,7 @@ li {
   background-color: rgb(101, 101, 101);
   justify-content: space-around;
   align-items: center;
+  border: 0.5px solid yellow;
 }
  nav > figure > img {
   width: 6rem;
@@ -31,6 +36,245 @@ li {
   border-radius: 50%;
  }
 
- .finder > input {
-  background-color: blue;
+ nav > ul {
+  display: flex;
+  gap: 5rem;
  }
+
+ nav > ul > li > a {
+  text-decoration: none;
+  color: yellow;
+  font-size: 1.3rem;
+ }
+
+ .home {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+ }
+
+ .home > button {
+  width: 35%;
+  margin: auto;
+  height: 2rem;
+  border-radius: 10px;
+  background: grey;
+  border: 0.5px solid yellow
+ }
+
+ .introImg {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+  margin: auto;
+  gap: 4rem;
+ }
+
+ .intro {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+ }
+
+ .intro > figure > img {
+  border-radius: 15px;
+ }
+ .intro > h2 {
+  text-align: center;
+  font-size: 3rem;
+ }
+ .intro > h2 > b {
+  color: rgba(255, 255, 0, 0.886);
+ }
+
+ .intro > p {
+  text-align: center;
+  font-size: 1.5rem;
+ }
+
+ .finder {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 3rem;
+ }
+
+ .finder > h2 {
+  text-align: center;
+ }
+
+ .finder > input {
+  height: 2rem;
+  width: 35%;
+  padding: 1rem;
+  background: dimgrey;
+  border-radius: 12px;
+  border: 0.5px solid yellow;
+  place-self: center;
+  text-align: center;
+ }
+
+ .finder > div {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 2rem;
+ }
+
+ .figurFinder > a {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+ }
+
+ .figurFinder > a > h2 {
+  text-align: center;
+ }
+
+ .figurFinder > a > h2::before {
+  content: "🎞";
+  padding-right: 1rem;
+ }
+
+ .figurFinder > a > img {
+  margin-top: 1rem;
+  width: 20rem;
+ }
+
+ .finder > button {
+  height: 2rem;
+  width: 35%;
+  background: dimgrey;
+  border-radius: 12px;
+  border: 0.5px solid yellow;
+  place-self: center;
+ }
+
+ .formMovie {
+  width: 90vw;
+  margin: auto;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+ }
+
+ .formMovie > h2, p {
+  text-align: center;
+ }
+
+ .formMovie > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+ }
+
+ fieldset {
+  background: dimgray;
+  border: 0.5px solid yellow;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ }
+
+ fieldset > legend {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 0, 0.795);
+ }
+
+ fieldset> div {
+  width: 500px;
+  place-self: center;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+ }
+
+ fieldset > div > label {
+  width: 85px;
+  text-align: center;
+ } 
+
+ fieldset > div > input {
+  width: 415px;
+  border-radius: 8px;
+  border: none;
+  color: rgb(16, 16, 16);
+  text-align: center;
+ }
+
+ .formMovie > form > input {
+  height: 2rem;
+  width: 35%;
+  background: dimgrey;
+  border-radius: 12px;
+  border: 0.5px solid yellow;
+  place-self: center;
+ }
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.preview > figure {
+  width: 20rem;
+  margin: auto;
+  gap: 1rem;
+}
+
+.preview > figure > div {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview > figure > div > h3 {
+  color: rgba(255, 255, 0, 0.827);
+}
+
+.preview > figure > img {
+  width: 15rem;
+}
+
+ @media screen and (max-width:490px){
+    .intro > figure > img {
+      width: 200px;
+    }
+    .intro > h2 {
+      font-size: 2rem;
+    }
+    .intro > p {
+      font-size: 1rem;
+    }
+    .introImg > button {
+      width: 200px;
+    }
+    .home > button {
+      width: 200px;
+    } 
+    .finder > input {
+      width: 200px;
+    }
+    .finder > button {
+      width: 200px;
+    }
+    .formMovie > form > input {
+      width: 200px;
+    }
+    fieldset > div {
+      width: 250px;
+    }
+  }

@@ -5,8 +5,6 @@ import { useNavigate } from "react-router-dom";
 
 const FormMovie = () => {
 
-    const [movie, setMovie] = useState({})
-
     const navigate = useNavigate();
 
     const [title, setTitle] = useState("");
@@ -19,14 +17,19 @@ const FormMovie = () => {
             title: title,
             poster: poster,
             año: year,
+            description: description,
             id: uuidv4()
         }
+        postMovie(movie)
     }
 
-    useEffect(() => {
-
-    }, [])
-
+    const postMovie = async (item) => {
+        axios({
+            method: "post",
+            url: "http://localhost:8080/TimBurtonMovies/",
+            data: item
+        })
+    }
 
 
     return (
@@ -49,13 +52,11 @@ const FormMovie = () => {
                     <label htmlFor="year">Year:</label>
                     <input type="number"
                      id="year"
-                     minLength="4"
-                     max-Length="4"
                      required
                      onChange={(ev) => setYear(ev.target.value)}
                      />
                 </div><div>
-                    <label htmlFor="poster">Poster</label>
+                    <label htmlFor="poster">Poster:</label>
                     <input type="text"
                      id="poster"
                      required

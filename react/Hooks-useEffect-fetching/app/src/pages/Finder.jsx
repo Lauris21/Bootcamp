@@ -23,7 +23,7 @@ const Finder = () => {
             <div>
                 {moviesCollection.filter((item) => item.title.toLowerCase().includes(filter.toLowerCase()))
                 .map((item) => (
-                    <figure key={item.title}>
+                    <figure className="figurFinder" key={item.title}>
                         <Link to={`/moviesGallery/${item.id}`} >
                             <h2>{item.title}</h2>
                             <img src={item.poster} alt={item.title} />

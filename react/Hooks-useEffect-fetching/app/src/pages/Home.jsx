@@ -9,7 +9,7 @@ const Home = () => {
         <div className="home">
             <div className="introImg">
                 <div className="intro">
-                    <h2>Tim Burton Api-Blog</h2>
+                    <h2><b>Tim Burton</b> Api-Blog</h2>
                     <p>Bienvenid@ a la Api-Blog de Tin Burton.</p>
                     <p>Aqúi puedes consultar y añadir sus mejores peliculas ✍🏽.</p>
                 </div>
