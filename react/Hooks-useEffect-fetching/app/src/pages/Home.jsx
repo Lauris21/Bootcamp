@@ -14,7 +14,7 @@ const Home = () => {
                     <p>Aqúi puedes consultar y añadir sus mejores peliculas ✍🏽.</p>
                 </div>
                 <figure>
-                    <img src="" alt="Tin Burton image" />
+                    <img src="https://imagenes.elpais.com/resizer/PvfzguZO65A6F6P7EVtDSkwnyOg=/414x0/filters:focal(2471x3251:2481x3261)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/IVOSYP755VH5FOAL2PM25LK444.jpg" alt="Tin Burton image" />
                 </figure>
             </div>
             <button type="button"

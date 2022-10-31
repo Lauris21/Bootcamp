@@ -26,6 +26,11 @@ li {
   align-items: center;
 }
  nav > figure > img {
-  width: 5rem;
-  height: 5.5rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+ }
+
+ .finder > input {
+  background-color: blue;
  }
