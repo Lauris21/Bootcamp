@@ -36,8 +36,7 @@ li {
     height: 15vh;
     display: flex;
     flex-direction: row;
-    padding-top: 1.5rem;
-    padding: 0rem 6rem;
+    padding: 1rem 6rem 1rem 6rem;
     justify-content: space-between;
     background: rgb(123,52,203);
     background: linear-gradient(90deg, rgba(123,52,203,1) 0%, rgba(184,68,161,1) 50%, rgba(244,84,111,1) 100%);
