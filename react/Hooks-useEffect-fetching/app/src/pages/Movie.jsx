@@ -20,7 +20,7 @@ const Movie = () => {
         getData()
        
     }, [])
-    console.log(character)
+    
     
     return (
         <div className="detailMovie">

@@ -13,6 +13,9 @@ const NavBar = () => {
                 <li>
                     <NavLink to="/comments">Comments</NavLink>
                 </li>
+                <li>
+                    <NavLink to="form">Add comment</NavLink>
+                </li>
             </ul>
         </nav>
     )

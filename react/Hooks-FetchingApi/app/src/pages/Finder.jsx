@@ -14,7 +14,7 @@ const Finder = () => {
 
     useEffect(() => {
         getData(filter).then((res) => setCollectionCharacter(res))
-    }, [filter]);
+    }, [debounceFilter]);
     
     return (
         <div className="finder">
