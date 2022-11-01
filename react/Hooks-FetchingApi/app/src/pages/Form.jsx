@@ -1,41 +1,37 @@
-import axios from "axios"
 import { v4 as uuidv4 } from "uuid"
+import { useNavigate } from "react-router-dom"
+
+import postData from "./../services/postData"
 
 const Form = () => {
 
-    const postComment = async (item) => {
-        axios({
-            method: "post",
-            url: ("http://localhost:8080/Comments/"),
-            data: item
-    })
-    }
+    const navigate = useNavigate();
 
     const createComment = (ev) => {
-        let dataPost = {
-            name: name,
-            comment: comment,
+        const dataPost = {
+            name: user.value,
+            comment: comment.value,
             id: uuidv4()
         }
-        postComment(dataPost)
-       
+        postData(dataPost)
     }
 
     return (
         <div className="form">
             <h1>Form</h1>
-            <form onSubmit={(ev) =>  createComment(ev.target.value)}>
+            <form onSubmit={(ev) => {
+                createComment(ev), navigate("/comments")}}>
                 <fieldset>
                     <legend>Add Comment</legend>
                     <div>
-                        <label htmlFor="name">Name: </label>
+                        <label htmlFor="user">Name:</label>
                         <input type="text" 
-                            id="name"
+                            id="user"
                             required
                             />
                     </div>
                     <div>
-                        <label htmlFor="comment">Comment</label>
+                        <label htmlFor="comment">Comment:</label>
                         <textarea type="text" 
                             id="comment"
                             required
@@ -46,7 +42,6 @@ const Form = () => {
             </form>
         </div>
     )
-    console.log(post)
 }
 
 export default Form;

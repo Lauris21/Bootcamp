@@ -1,5 +1,19 @@
 {
-    "Comments": [
-        
-    ]
+  "Comments": [
+    {
+      "name": "KingLi",
+      "comment": "Muy buena serie, hay algunos capitulos que parecen salidos del cine con un final inesperado",
+      "id": "669d374a-3137-4fac-9b9f-6f4f473e2d65"
+    },
+    {
+      "name": "Pipen",
+      "comment": "Es una de las pocas series que logran engancharme al instante,amo todo,los personajes,las referencias que nunca se escapan y toda la trama,dicen que es una serie sobrevalorada,pero es mentira,es una serie que merece valoración.",
+      "id": "17983818-adaa-44c6-9d4c-061437cec919"
+    },
+    {
+      "name": "Muñi",
+      "comment": "Es tan genial ... aunque me encantaría que hicieran más episodios y estoy segura que no solo yo , muchisiiimas personas mas , es uno de los mejores dibujos animados , felicito a los creadores por tanta imaginación y creatividad , a pesar de ser un dibujo deja muchas cosas que pensar te vuela la imaginacion ¡¡¡¡¡¡ la recomiendo 100%.",
+      "id": "f8181eeb-d823-4dd6-8b60-579c0b323521"
+    }
+  ]
 }
