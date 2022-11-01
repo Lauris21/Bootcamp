@@ -7,8 +7,8 @@ import App from './App'
 import Home from "./pages/Home";
 import Finder from "./pages/Finder";
 import FormMovies from "./pages/FormMovie";
-import MoviesGallery from "./pages/MoviesGallery";
-import DetailMovie from "./pages/DetailMovie";
+import Movies from "./pages/Movies";
+import Movie from "./pages/Movie";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -18,8 +18,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route index element={<Home />} />
         <Route path='/finder' element={<Finder />} />
         <Route path='/formMovies' element={<FormMovies />} />
-        <Route path='/moviesGallery' element={<MoviesGallery />} />
-        <Route path='/moviesGallery/:id' element={<DetailMovie />} />
+        <Route path='/moviesGallery' element={<Movies />} />
+        <Route path='/moviesGallery/:id' element={<Movie />} />
         </Route>
       </Routes>
     </BrowserRouter>

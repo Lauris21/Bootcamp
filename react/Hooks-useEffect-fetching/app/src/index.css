@@ -249,8 +249,92 @@ a {
   width: 15rem;
 }
 
+.moviesGallery {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  margin: auto;
+  place-items: center;
+  gap: 2rem;
+}
+
+.moviesGallery > div {
+  width: 90vw;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr))
+}
+.figureGallery > a {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1.5rem;
+}
+
+.figureGallery > a > div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.figureGallery > a > div > h3 {
+  color: rgba(255, 255, 0, 0.816);
+}
+
+.figureGallery > a > img {
+  width: 20rem;
+}
+
+.detailMovie {
+  width: 70%;
+  margin: auto;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+}
+
+.detailMovie > div {
+  width: 80%;
+  place-self: center;
+}
+
+.figureItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.figureItem > div > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.figureItem > div > div > h3 {
+  color: rgba(255, 255, 0, 0.8);
+  font-size: 2rem;
+}
+
+.figureItem > div > div > h4 {
+  font-size: 1.3rem;
+}
+
+.figureItem > div > img {
+  width: 400px;
+}
+
+.figureItem > p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
  @media screen and (max-width:490px){
-    .intro > figure > img {
+    .introImg > figure > img {
       width: 200px;
     }
     .intro > h2 {
@@ -276,5 +360,11 @@ a {
     }
     fieldset > div {
       width: 250px;
+    }
+    .figureItem {
+      flex-direction: column;
+    }
+    .figureItem > div > img {
+      width: 200px;
     }
   }
