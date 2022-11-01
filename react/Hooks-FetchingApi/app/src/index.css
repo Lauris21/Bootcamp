@@ -9,8 +9,14 @@
     padding: 0;
     box-sizing: border-box;
     color: var(--primary);
+    font-family: pointfree, sans-serif;
 }
 
+@font-face {
+    font-family: pointfree;
+    src: url("./../src/fonts/pointfree.ttf");
+    font-display: block;
+}
 .App {
     background-image: url("https://images6.alphacoders.com/909/thumb-1920-909641.png");
     background-size: cover;
