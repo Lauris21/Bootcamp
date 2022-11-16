@@ -47,6 +47,20 @@
       "poster": "https://m.media-amazon.com/images/I/515K5zuFI8L._AC_.jpg",
       "año": "2003",
       "id": "5d194811-db70-4fde-8a8c-9bb8dbbfb53d"
+    },
+    {
+      "title": "Pesadilla antes de Navidad",
+      "poster": "https://m.media-amazon.com/images/I/71UvWgIQNiL._AC_SY606_.jpg",
+      "año": "1994",
+      "description": "El Señor de Halloween, Jack Skellington, aburrido de hacer cada año lo mismo, descubre la Navidad en la Ciudad de la Navidad y queda fascinado, por lo que decide emplearse a fondo y mejorar dicha festividad. Con este fin, secuestra a Santa Claus y crea una versión de la Navidad totalmente opuesta a la que existe.",
+      "id": "30a83ed0-92ce-49c3-909c-fa6e899f7721"
+    },
+    {
+      "title": "Batman vuelve",
+      "poster": "https://i.pinimg.com/736x/03/c5/68/03c568255e546f991a344199c05b1364.jpg",
+      "año": "1992",
+      "description": "Batman y la seductora Catwoman en la más oscura de sus aventuras, colaboran juntos para salvar la ciudad de Gotham, del Hombre Pingüino.",
+      "id": "2cbe61e7-f938-4ed0-8aa1-3031958411fe"
     }
   ]
 }

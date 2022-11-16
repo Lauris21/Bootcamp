@@ -7,6 +7,20 @@
   padding: 0;
   box-sizing: border-box;
   color: whitesmoke;
+  font-family: Nitemare, serif;
+}
+
+@font-face {
+  font-family: Nitemare;
+  src: url("./../src/fonts/NITEMARE.TTF");
+  display: block;
+}
+h2 {
+  font-size: 3.5rem;
+}
+
+p {
+  font-size: 1.7rem;
 }
 
 li {
@@ -44,7 +58,7 @@ a {
  nav > ul > li > a {
   text-decoration: none;
   color: yellow;
-  font-size: 1.3rem;
+  font-size: 1.9rem;
  }
 
  .home {
@@ -60,7 +74,8 @@ a {
   height: 2rem;
   border-radius: 10px;
   background: grey;
-  border: 0.5px solid yellow
+  border: 0.5px solid yellow;
+  font-size: 1.5rem;
  }
 
  .introImg {
@@ -92,7 +107,7 @@ a {
 
  .intro > p {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
  }
 
  .finder {
@@ -117,6 +132,7 @@ a {
   border: 0.5px solid yellow;
   place-self: center;
   text-align: center;
+  font-size: 1.8rem;
  }
 
  .finder > div {
@@ -153,6 +169,8 @@ a {
   border-radius: 12px;
   border: 0.5px solid yellow;
   place-self: center;
+  font-size: 1.7rem;
+  text-align: center;
  }
 
  .formMovie {
@@ -185,7 +203,7 @@ a {
 
  fieldset > legend {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: rgba(255, 255, 0, 0.795);
  }
 
@@ -200,6 +218,7 @@ a {
  fieldset > div > label {
   width: 85px;
   text-align: center;
+  font-size: 1.6rem;
  } 
 
  fieldset > div > input {
@@ -208,6 +227,7 @@ a {
   border: none;
   color: rgb(16, 16, 16);
   text-align: center;
+  font-size: 1.6rem;
  }
 
  .formMovie > form > input {
@@ -217,6 +237,8 @@ a {
   border-radius: 12px;
   border: 0.5px solid yellow;
   place-self: center;
+  font-size: 1.6rem;
+  text-align: center;
  }
 
 .preview {
@@ -243,6 +265,10 @@ a {
 
 .preview > figure > div > h3 {
   color: rgba(255, 255, 0, 0.827);
+  font-size: 3rem;
+}
+.preview > figure > div > h4 {
+  font-size: 1.7rem;
 }
 
 .preview > figure > img {
@@ -318,11 +344,11 @@ a {
 
 .figureItem > div > div > h3 {
   color: rgba(255, 255, 0, 0.8);
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .figureItem > div > div > h4 {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
 }
 
 .figureItem > div > img {
@@ -331,7 +357,7 @@ a {
 
 .figureItem > p {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
  @media screen and (max-width:490px){
