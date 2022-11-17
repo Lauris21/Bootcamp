@@ -1,14 +1,7 @@
-import { useEffect } from 'react';
-
 import { Div } from '../components/componentsUi/StyledDiv.jsx';
 import { Img } from '../components/componentsUi/StyledImg';
-import getData from '../api/api.js';
 
 const Home = () => {
-  const url = 'http://localhost:8080/diablo/character/';
-  useEffect(() => {
-    getData(url).then((res) => console.log(res));
-  }, []);
   return (
     <Div
       width="100%"

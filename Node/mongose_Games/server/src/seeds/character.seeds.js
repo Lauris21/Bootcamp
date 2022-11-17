@@ -63,7 +63,7 @@ const character = [
     recurso: "cólera",
     skills: "ataque cuerpo a cuerpo con gran dominio de armas y escudos",
     posterFemale:
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/604f3ff3-78c2-4b2c-aeff-ce26726d4689/d7993ca-45cbc797-c92d-4885-8b07-37325a1b633d.jpg",
+      "https://p4.wallpaperbetter.com/wallpaper/852/173/111/diablo-3-reaper-of-souls-women-sword-chain-wallpaper-preview.jpg",
     posterMale:
       "https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2018/10/diablo_3_crossplay.jpg",
   },
