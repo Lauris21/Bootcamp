@@ -2,6 +2,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
 const User = require("./user.model");
+const { setError } = require("../../helpers/error/handle.error");
 
 const register = async (req, res, next) => {
   try {
@@ -20,7 +21,7 @@ const register = async (req, res, next) => {
       data: newUserDB,
     });
   } catch (error) {
-    return next(setError(500, "User registred fail"));
+    return next(setError(500, "User registered fail"));
   }
 };
 
