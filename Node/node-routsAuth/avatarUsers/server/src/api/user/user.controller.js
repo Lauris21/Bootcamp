@@ -17,7 +17,7 @@ const register = async (req, res, next) => {
     const newUserDB = newUser.save();
     return res.json({
       status: 201,
-      message: "user registred",
+      message: "user registered",
       data: newUserDB,
     });
   } catch (error) {
@@ -44,7 +44,7 @@ const login = async (req, res, next) => {
         // Recuperamos secretKey para gener token en base a esta key
         req.app.get("secretKey"),
         // Cuando expira el token
-        { expiresIn: "1h" }
+        { expiresIn: "60000000h" }
       );
       // Devolvemos info del usuario y el token
       return res.json({

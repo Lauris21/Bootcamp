@@ -4,3 +4,5 @@ const setError = (code, message) => {
   error.message = message;
   return error;
 };
+
+module.exports = { setError };
