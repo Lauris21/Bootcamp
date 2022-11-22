@@ -6,6 +6,8 @@ const cors = require('cors');
 const { connect } = require('./helpers/db');
 const { setUpCloudinary } = require('./helpers/cloudinary');
 
+const DogRoutes = require('./api/dogs/dog.routes');
+
 const app = express();
 connect();
 setUpCloudinary();
@@ -27,6 +29,8 @@ app.use(
 
 app.use(express.json({ limit: '1mb' }));
 app.use(express.urlencoded({ limit: '1mb', extended: true }));
+
+app.use('/api/veterinary/dogs', DogRoutes);
 
 app.use('*', (req, res, next) => {
   const error = new Error();
