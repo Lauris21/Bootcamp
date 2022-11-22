@@ -1,8 +1,14 @@
 const express = require('express');
 const dotenv = require('dotenv');
+dotenv.config();
 const cors = require('cors');
 
+const { connect } = require('./helpers/db');
+const { setUpCloudinary } = require('./helpers/cloudinary');
+
 const app = express();
+connect();
+setUpCloudinary();
 const PORT = process.env.PORT;
 
 app.use((req, res, next) => {
