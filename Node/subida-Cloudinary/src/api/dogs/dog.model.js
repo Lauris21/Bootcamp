@@ -4,9 +4,9 @@ const Schema = mongoose.Schema;
 
 const dogSchema = new Schema(
   {
-    name: { type: String, require: true },
-    age: { type: Number, require: true },
-    image: { type: String, require: true },
+    name: { type: String, required: true },
+    age: { type: Number, required: true },
+    image: { type: String, required: true },
   },
   {
     timestamps: true,
